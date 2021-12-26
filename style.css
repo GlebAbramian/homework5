@@ -1,0 +1,54 @@
+.first {
+    width: 80%;
+    height: 80vh;                
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+
+
+    h1 {
+        text-transform: uppercase;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+  
+.second {
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+   }
+  
+  header {
+    min-height: 20vh;
+    background-color: darkseagreen;   
+  }
+  
+  main {
+    display: flex; 
+    flex-wrap: wrap;
+    min-height: 70vh;                     
+    background-color: steelblue; 
+  }
+
+  .item {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    float: none;
+  }
+
+
+  footer {
+    min-height: 10vh;  
+    background-color: skyblue;
+  }
+
+  button {
+      margin-left: 20px;
+    margin-right: 30px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+  }
